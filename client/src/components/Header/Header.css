@@ -1,0 +1,29 @@
+.header{
+    background-color: #366898;
+    height: 65px;
+}
+
+.header__wrapper{
+    width: 1280px;
+    display: flex;
+    flex-direction: row;
+    margin: 0 auto;
+    justify-content: space-evenly;
+}
+
+.header__links{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    font-size: 16px;
+    gap: 16px;
+    color: #9fcd1f;
+    font-weight: 700;
+}
+
+.header__links__register{
+    color: #ffffff;
+    background-color: #9fcd1f;
+    padding: 8px;
+    border-radius: 6px;
+}
