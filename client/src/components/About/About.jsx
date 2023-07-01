@@ -6,7 +6,6 @@ const About = () => {
     return (
         <div className="about">
             <div className="about__wrapper">
-
                 <h3>О конкурсе</h3>
 
                 <div className={"about__wrapper__text"}>
