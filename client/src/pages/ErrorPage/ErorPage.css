@@ -1,0 +1,41 @@
+.error_page h1{
+    color: white;
+    font-family: Montserrat-Black, sans-serif;
+    font-size: 80px;
+    margin: 0;
+}
+.error_page{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    gap: 15px;
+    background-color: #90d676;
+    height: calc(100vh - 64px);
+}
+.error__text{
+    color: white;
+    font-family: Montserrat-Black, sans-serif;
+}
+.error__back__button{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 0;
+    border-radius: 3px;
+    background: #6dbf4e;
+    color: white;
+    padding: 8px;
+    font-family: OpenSans;
+    cursor: pointer;
+}
+.error__back__button__arrow{
+    font-size: 20px;
+    padding: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.error__back_button__text{
+    font-family: Montserrat-Black;
+}
