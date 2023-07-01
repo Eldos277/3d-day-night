@@ -9,9 +9,11 @@ const ErrorPage = () => {
     return (
         <div className="error_page">
             <h1>404</h1>
+
             <div className="error__text">
                 Упс! Произошла какая-то ошибка, запрошенная страница не найдена!
             </div>
+
             <button className="error__back__button" onClick={handleNavigate}>
                 <span className='error__back_button__text'>Вернуться на главную</span>
                 <span className="error__back__button__arrow">
