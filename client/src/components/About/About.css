@@ -1,0 +1,77 @@
+.about{
+    height: 900px;
+    background-image: url("../../assets/images/about/grey-back.png");
+    background-size: cover;
+    margin-top: 8px;
+}
+
+.about__wrapper{
+    width: 1280px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+}
+
+.about__wrapper h3{
+    font-size: 32px;
+    font-family: Montserrat-Bold, sans-serif;
+    color: #366898;
+    font-weight: 700;
+    margin: 30px 0 15px 0;
+}
+
+.about__wrapper__text{
+    font-family: OpenSans, sans-serif;
+    font-size: 17px;
+    color: #212529;
+}
+
+.about__wrapper__text p{
+    margin: 0 0 16px 0;
+}
+
+.about__wrapper__text p:last-child{
+    color: #ff0707;
+}
+.about__wrapper hr{
+    margin: 16px 0;
+    border: 0;
+    border-top: 1px solid rgba(0,0,0,.1);
+}
+
+.about__text__hashtags{
+    font-size: 17px;
+    color: #366898;
+    display: flex;
+    gap: 8px;
+}
+
+.about__wrapper__links{
+    display: flex;
+    gap: 30px;
+    padding-top: 40px;
+}
+
+.about__links__file, .about__links__register{
+    width: 50%;
+    background-color: #9fcd1f;
+    padding: 16px;
+    font-size: 20px;
+    font-family: OpenSans, sans-serif;
+    text-align: center;
+    border-radius: 6px;
+    font-weight: 600;
+    cursor: pointer;
+}
+.about__links__file a, .about__links__register a{
+    color: #212529;
+    text-decoration: none;
+}
+.about__links__file:hover, .about__links__register:hover {
+    background-color: #8ebc0e;
+}
+
+.about__links__file a{
+    display: block;
+    width: 100%;
+}
