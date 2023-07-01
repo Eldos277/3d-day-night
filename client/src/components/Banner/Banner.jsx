@@ -1,5 +1,5 @@
 import './Banner.css'
-import logo_3d from '../../assets/3d_day_logo.png'
+import logo_3d from '../../assets/images/banner/3d_day_logo.png'
 
 const Banner = () => {
 
