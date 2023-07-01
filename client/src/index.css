@@ -13,8 +13,13 @@ code {
 }
 
 @font-face {
-  font-family: 'Montserrat-Bold';
+  font-family: 'Montserrat-Black';
   src: url('./assets/fonts/Montserrat-Black.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'Montserrat-Bold';
+  src: url('./assets/fonts/Montserrat-Bold.woff2') format('woff2');
 }
 
 @font-face {
