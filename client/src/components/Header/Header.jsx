@@ -1,5 +1,5 @@
 import './Header.css'
-import logo from '../../assets/images/logo.svg'
+import logo from '../../assets/images/sstu_logo.svg'
 import {useNavigate} from "react-router-dom";
 
 const Header = () => {

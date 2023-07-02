@@ -1,0 +1,38 @@
+.organizers{
+    width: 100%;
+}
+
+.organizers__header{
+    background-color: #366898;
+    color: white;
+    text-align: center;
+    font-size: 28px;
+    font-family: Montserrat-Black, sans-serif;
+}
+
+.organizers__header h3{
+    margin: 0;
+    padding: 10px;
+}
+
+.organizers__wrapper{
+    width: 1280px;
+    margin: 0 auto;
+}
+.organizers__wrapper__content{
+    display: flex;
+    justify-content: space-evenly;
+}
+.organizers__wrapper__content img{
+    cursor: pointer;
+    width: 200px;
+    height: 150px;
+    filter: grayscale(100%); /* Устанавливаем черно-белый цвет по умолчанию */
+    transition: filter 0.3s ease; /* Добавляем плавный переход */
+}
+
+.organizers__wrapper__content img:hover{
+    filter: none;
+}
+
+
