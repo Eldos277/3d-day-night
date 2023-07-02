@@ -1,0 +1,21 @@
+.schedule{
+    width: 100%;
+}
+
+.schedule__header{
+    background-color: #366898;
+    color: white;
+    text-align: center;
+    font-size: 28px;
+    font-family: Montserrat-Black, sans-serif;
+}
+
+.schedule__header h3{
+    margin: 0;
+    padding: 10px;
+}
+
+.schedule__wrapper{
+    width: 1280px;
+    margin: 0 auto;
+}
