@@ -1,5 +1,6 @@
 .schedule{
     width: 100%;
+    margin-bottom: 40px;
 }
 
 .schedule__header{
@@ -18,4 +19,32 @@
 .schedule__wrapper{
     width: 1280px;
     margin: 0 auto;
+}
+
+.schedule__wrapper__switcher{
+    margin: 20px auto 0;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.schedule__wrapper__switcher button{
+    border: 0;
+    color: #366898;
+    font-size: 22px;
+    font-family: Montserrat-Bold, sans-serif;
+    padding: 20px;
+    background-color: #e1e1e1;
+    cursor: pointer;
+    border-radius: 6px;
+    width: 35%;
+}
+
+.schedule__wrapper__switcher .active{
+    color: #ffffff;
+    cursor: unset;
+    background-color: #144676;
+}
+
+.schedule__wrapper__switcher h5{
+    margin: 0;
 }
