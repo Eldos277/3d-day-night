@@ -1,4 +1,3 @@
-import './ArchitecturalVisualization.css'
 import React from 'react'
 import icon_3d from '../../assets/images/schedule/3d.png'
 import circle from '../../assets/images/schedule/circle.png'
@@ -7,31 +6,31 @@ import class_logo from '../../assets/images/schedule/class.png'
 import like from '../../assets/images/schedule/like.png'
 import medal from '../../assets/images/schedule/medal.png'
 
-const ArchitecturalVisualization = () => {
 
+const CharacterModeling = () => {
     const data22 = [
         {
-            "time": "09:30 – 10:00",
+            "time": "21:30 – 22:00",
             "img": circle,
             "text": "Регистрация участников",
         }, {
-            "time": "10.00 – 13:00",
+            "time": "22.00 – 01:00",
             "img": icon_3d,
             "text": "Выполнение заданий конкурс",
         }, {
-            "time": "13:00 – 14:00",
+            "time": "01:00 – 02:00",
             "img": dinner,
             "text": "Обед",
         }, {
-            "time": "14:00 – 16:00",
+            "time": "02:00 – 04:00",
             "img": circle,
             "text": "Выполнение заданий конкурса",
         }, {
-            "time": "16:00 – 20:00",
+            "time": "04:00 – 08:00",
             "img": circle,
             "text": "Размещение итоговых проектов в группе «3D-день и ночь СГТУ» ВКонтакте",
         }, {
-            "time": "20:00",
+            "time": "08:00",
             "img": like,
             "text": "Начало зрительского голосования в группе «3D-день и ночь СГТУ» ВКонтакте",
         }
@@ -39,11 +38,11 @@ const ArchitecturalVisualization = () => {
 
     const data23 = [
         {
-            "time": "10:00",
+            "time": "18:00",
             "img": like,
             "text": "Окончание зрительского голосования в группе «3D-день и ночь СГТУ» ВКонтакте",
         }, {
-            "time": "10:00 - 18:00",
+            "time": "18:00 - 02:00",
             "img": class_logo,
             "text": "Проверка работ Экспертным советом Конкурса",
         }
@@ -75,31 +74,31 @@ const ArchitecturalVisualization = () => {
     return (
         <div className="arch__content">
 
-        {
-            data.map((day, index) => {
-                return <div className="arch__content__card" key={index}>
-                    <div className="arch__card__header">
-                        <h4>{day.date}</h4>
+            {
+                data.map((day, index) => {
+                    return <div className="arch__content__card" key={index}>
+                        <div className="arch__card__header">
+                            <h4>{day.date}</h4>
+                        </div>
+                        <div className="arch__card__content">
+                            {
+                                day.data.map((item, index) => {
+                                    return <React.Fragment key={index}>
+                                        <div className="arch__content__element">
+                                            <span className="arch__element__date">{item.time}</span>
+                                            <span className="arch__element__img"><img src={item.img} alt="Img"/></span>
+                                            <span className="arch__element__text">{item.text}</span>
+                                        </div>
+                                    </React.Fragment>
+                                })
+                            }
+                        </div>
                     </div>
-                    <div className="arch__card__content">
-                    {
-                        day.data.map((item, index) => {
-                            return <React.Fragment key={index}>
-                                <div className="arch__content__element">
-                                    <span className="arch__element__date">{item.time}</span>
-                                    <span className="arch__element__img"><img src={item.img} alt="Img"/></span>
-                                    <span className="arch__element__text">{item.text}</span>
-                                </div>
-                            </React.Fragment>
-                        })
-                    }
-                    </div>
-                </div>
-            })
-        }
+                })
+            }
 
         </div>
     )
 }
 
-export default ArchitecturalVisualization
+export default CharacterModeling
