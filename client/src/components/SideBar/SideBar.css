@@ -1,0 +1,36 @@
+.sidebar__element__text{
+    font-family: OpenSans, sans-serif;
+}
+.sidebar__content__element{
+    display: flex;
+    gap: 20px;
+    justify-content: flex-start;
+    align-items: center;
+    font-size: 17px;
+    cursor: pointer;
+}
+.sidebar__element__img img{
+    width: 36px;
+    height: 36px;
+    filter: opacity(0.5);
+}
+.sidebar__img__active{
+    filter: opacity(1) !important;
+}
+.sidebar__content{
+    display: flex;
+    flex-direction: column;
+    padding-left: 40px;
+    border-right: 2px solid #858585;
+    width: 300px;
+    height: calc(100vh - 64px);
+}
+.sidebar__user__avatar{
+    padding-top: 20px;
+    padding-bottom: 30px;
+}
+.sidebar__user__avatar__img{
+    width: 120px;
+    height: 120px;
+    border-radius: 5px;
+}
